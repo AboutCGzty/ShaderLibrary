@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShaderModel_Diffuse_CheapSSS
-  m_Shader: {fileID: 4800000, guid: bc15d1b8b8a3e664b8607ffd25295244, type: 3}
+  m_Name: ShaderModel_Specular_Gouraud
+  m_Shader: {fileID: 4800000, guid: 43b510648827c754299ed34e059e91a0, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -22,8 +22,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _CheapSSSIntensity: 1
-    - _CheapSSSPower: 1
-    - _CheapSSSSpread: 3
+    - _GourardIntensity: 1
+    - _GourardPower: 10
     m_Colors: []
   m_BuildTextureStacks: []
