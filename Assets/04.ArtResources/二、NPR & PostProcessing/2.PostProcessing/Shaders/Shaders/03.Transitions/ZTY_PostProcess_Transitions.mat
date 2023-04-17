@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ZTY_PostProcess_Transitions
+  m_Shader: {fileID: 4800000, guid: b069059d7bc5ac74aac275f133de9bc7, type: 3}
+  m_ValidKeywords:
+  - _TRANSITIONSTYPE_POLAR
+  m_InvalidKeywords:
+  - _KEYWORD0_KEY1
+  - _KEYWORD0_LOUVER
+  - _SATURATIONDOWN_ON
+  - _SCANEDGEON_ON
+  - _ScanEdgeOn
+  - _TRANSITIONSTYPE_KEY3
+  - _TRANSITIONSTYPE_SA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Float0: 32
+    - _Float1: 1
+    - _GlobalLuminanceIntensity: 1
+    - _GlobalTransitionsAmount: 0
+    - _GridTilling: 10
+    - _Keyword0: 1
+    - _LouverNumber: 2
+    - _LuminanceIntensity: 1
+    - _MainTexLuminanceIntensity: 1
+    - _NoiseIntensity: 0
+    - _NoiseSpeed: 0.1
+    - _NoiseTilling: 5
+    - _SaturationDown: 1
+    - _ScanEdgeIntensity: 0
+    - _ScanEdgeOn: 1
+    - _ScanEdgeWidth: 0.1
+    - _ScanNoiseIntensity: 0
+    - _ScanNoiseTilling: 5
+    - _ScanSpeed: 1
+    - _ScanTransitions: 0.487
+    - _ScanTransitionsAmount: 0.487
+    - _SeedSpeed: 1
+    - _SeedTilling: 50
+    - _TransitionsAmount: 0.331
+    - _TransitionsSpread: 0.386
+    - _TransitionsType: 0
+    m_Colors:
+    - _ScanEdgeColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

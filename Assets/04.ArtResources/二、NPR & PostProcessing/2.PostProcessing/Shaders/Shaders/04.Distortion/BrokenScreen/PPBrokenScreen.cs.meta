@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 781cdea9be6253e4284bf9c7e244af25
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BrokenScreenMat: {fileID: 2100000, guid: 0013139b2056b644eb19f79de7578570, type: 2}
+  - BrokenScreen_Mask: {fileID: 2800000, guid: 0c88ce0cc567f614bac68dc356210808, type: 3}
+  - BrokenScreen_Normal: {fileID: 2800000, guid: 0b9b0dd4263308b4098cb8174b2d5357, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ZTY_PostProcess_Distortion_BrokenScreen
+  m_Shader: {fileID: 4800000, guid: 1e881a9a1ca2b7044bf454caa19b26c1, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BrokenScreen_Mask:
+        m_Texture: {fileID: 2800000, guid: 0c88ce0cc567f614bac68dc356210808, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrokenScreen_Normal:
+        m_Texture: {fileID: 2800000, guid: 0b9b0dd4263308b4098cb8174b2d5357, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BrokenScreenIntensity: 1
+    - _Float0: 0
+    m_Colors:
+    - _BrokenColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BrokenScreenUV: {r: 1.5, g: 0.7, b: -0.25, a: 0.15}
+    - _Vector0: {r: 2, g: 1, b: -0.5, a: 0}
+  m_BuildTextureStacks: []

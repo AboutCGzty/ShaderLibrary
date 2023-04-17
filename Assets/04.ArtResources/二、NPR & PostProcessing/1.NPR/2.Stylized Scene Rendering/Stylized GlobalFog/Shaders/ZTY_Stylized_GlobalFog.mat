@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ZTY_Stylized_GlobalFog
+  m_Shader: {fileID: 4800000, guid: 8e78eebbc33fe0b4281b7f1bad99e9a3, type: 3}
+  m_ValidKeywords:
+  - _ACES_ON
+  - _FOGMODE_LINEAR
+  - _FOGNOISE_ON
+  - _FOGTYPE_GLOBAL
+  m_InvalidKeywords:
+  - _FOGSUN_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ACESOn: 1
+    - _FogDensity: 0.046
+    - _FogDistanceEnd: 150
+    - _FogDistanceStart: 25
+    - _FogExp1Distance: 0.01
+    - _FogExp1Height: 0.999
+    - _FogExp1HeightPower: 1
+    - _FogExp2Distance: 0.01
+    - _FogExp2Height: 0.999
+    - _FogExpDistance: 0.01
+    - _FogExpDistancePower: 1.89
+    - _FogExpHeight: 0.999
+    - _FogExpHeightPower: 1
+    - _FogHeightEnd: 1000
+    - _FogHeightStart: -100
+    - _FogIntensity: 0.5
+    - _FogMode: 0
+    - _FogNoiseIntensity: 1
+    - _FogNoiseOn: 1
+    - _FogSunOn: 1
+    - _FogType: 2
+    - _SunFogRange: 3
+    - _SunIntensity: 1
+    m_Colors:
+    - _FogColor: {r: 0.43148237, g: 0.68130565, b: 0.83137256, a: 0}
+    - _FogNoiseScale: {r: 400, g: 400, b: 400, a: 0}
+    - _FogNoiseSpeed: {r: 0.2, g: 0.2, b: 0.5, a: 0}
+  m_BuildTextureStacks: []

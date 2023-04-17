@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a9480342f4d407f4694d761003e3a5b3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BloomMat: {fileID: 2100000, guid: a02c3b1349101964fa0622e9704acc3f, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

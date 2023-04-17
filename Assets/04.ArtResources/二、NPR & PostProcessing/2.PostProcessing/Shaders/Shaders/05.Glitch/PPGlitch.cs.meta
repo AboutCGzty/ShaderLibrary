@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 9ceb6b8d1e2a6d84c912e140c3bc0284
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GlitchMat: {fileID: 2100000, guid: 30595ef518b802d4280114d064285b5d, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

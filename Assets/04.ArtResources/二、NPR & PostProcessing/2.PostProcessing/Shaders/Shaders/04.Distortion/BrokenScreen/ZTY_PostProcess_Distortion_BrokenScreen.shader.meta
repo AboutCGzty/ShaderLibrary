@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 1e881a9a1ca2b7044bf454caa19b26c1
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _BrokenScreen_Normal: {fileID: 2800000, guid: 0b9b0dd4263308b4098cb8174b2d5357, type: 3}
+  - _BrokenScreen_Mask: {fileID: 2800000, guid: 0c88ce0cc567f614bac68dc356210808, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

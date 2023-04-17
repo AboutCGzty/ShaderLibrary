@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ZTY_ImageEffect_Distortion_Ripple
+  m_Shader: {fileID: 4800000, guid: 4bb59758f85865145bfe0e203ab7eabf, type: 3}
+  m_ValidKeywords:
+  - _ONEWAY_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _OneWay: 0
+    - _RippleIntensity: 0.185
+    - _RippleScale: 0
+    - _RippleSpeed: 1.96
+    - _RippleTilling: 9.37
+    - _VignetteContrast: 1
+    - _VignetteHigh: 2
+    - _VignetteIntensity: 1
+    - _VignetteSpread: 30
+    - _VignetteWidth: 2
+    m_Colors:
+    - _VignetteColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

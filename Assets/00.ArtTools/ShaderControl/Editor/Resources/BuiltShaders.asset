@@ -1,0 +1,2600 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
+  m_Name: BuiltShaders
+  m_EditorClassIdentifier: 
+  creationDateTicks: 638125354473966600
+  shaders:
+  - name: Standard
+    simpleName: Standard
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _ALPHABLEND_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _METALLICGLOSSMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _NORMALMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Custom/Vegetation
+    simpleName: Vegetation
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Vegetation.shader
+  - name: Custom/MossMask
+    simpleName: MossMask
+    isExpanded: 1
+    includeInBuild: 1
+    keywords:
+    - keyword: _USE_MASK_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Stonework.shader
+  - name: Standard (Specular setup)
+    simpleName: Standard (Specular setup)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _ALPHAPREMULTIPLY_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Custom/Dissolve
+    simpleName: Dissolve
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _USE_GRADIENT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Dissolve.shader
+  - name: Custom/GroundCover
+    simpleName: GroundCover
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/GroundCover.shader
+  - name: Custom/Rock
+    simpleName: Rock
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Rock.shader
+  - name: Custom/StandardCutout
+    simpleName: StandardCutout
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/StandardCutout.shader
+  - name: Custom/Respawn
+    simpleName: Respawn
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _USE_GRADIENT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Respawn.shader
+  - name: Custom/EyeLash
+    simpleName: EyeLash
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/EyeLash.shader
+  - name: Custom/Alien
+    simpleName: Alien
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Alien.shader
+  - name: Custom/Terrain
+    simpleName: Terrain
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Terrain.shader
+  - name: Custom/BubbleBurst
+    simpleName: BubbleBurst
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/BubbleBurst.shader
+  - name: ProBuilder/Standard Vertex Color
+    simpleName: Standard Vertex Color
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
+  - name: Custom/EnergyCore
+    simpleName: EnergyCore
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/EnergyCore.shader
+  - name: Custom/ToonSkin
+    simpleName: ToonSkin
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/ToonSkin.shader
+  - name: Custom/SculptedHair
+    simpleName: SculptedHair
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/SculptedHair.shader
+  - name: Custom/EyeBallsHD
+    simpleName: EyeBallsHD
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/EyeShader/Shaders/EyeBallsHD.shader
+  - name: Custom/Translucency
+    simpleName: Translucency
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _VERTEXANIMATE_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Translucency.shader
+  - name: Legacy Shaders/Diffuse
+    simpleName: Diffuse
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Custom/Firefly
+    simpleName: Firefly
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Firefly.shader
+  - name: Custom/Shield
+    simpleName: Shield
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Shield.shader
+  - name: Hidden/PostProcessing/Uber
+    simpleName: Uber
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: BLOOM
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: BLOOM_LOW
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: CHROMATIC_ABERRATION
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: CHROMATIC_ABERRATION_LOW
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: COLOR_GRADING_HDR_2D
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: COLOR_GRADING_HDR_3D
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: COLOR_GRADING_LDR_2D
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DISTORT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FINALPASS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: GRAIN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_DOUBLEWIDE_TARGET
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_INSTANCING_ENABLED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VIGNETTE
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+  - name: TextMeshPro/Distance Field (Surface)
+    simpleName: Distance Field (Surface)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+  - name: Particles/Standard Unlit
+    simpleName: Standard Unlit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _ALPHABLEND_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _FADING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _NORMALMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: EFFECT_BUMP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: PROCEDURAL_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SOFTPARTICLES_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-DeferredShading
+    simpleName: Internal-DeferredShading
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Custom/Acid
+    simpleName: Acid
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Acid.shader
+  - name: Hidden/Internal-PrePassLighting
+    simpleName: Internal-PrePassLighting
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Custom/WaterX
+    simpleName: WaterX
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/WaterX.shader
+  - name: Custom/GroundFog
+    simpleName: GroundFog
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/GroundFog.shader
+  - name: TextMeshPro/Mobile/Distance Field (Surface)
+    simpleName: Distance Field (Surface)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+  - name: Legacy Shaders/VertexLit
+    simpleName: VertexLit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/FinalPass
+    simpleName: FinalPass
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FXAA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FXAA_KEEP_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FXAA_LOW
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FXAA_NO_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_DOUBLEWIDE_TARGET
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_INSTANCING_ENABLED
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+  - name: TextMeshPro/Mobile/Distance Field
+    simpleName: Distance Field
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: OUTLINE_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNDERLAY_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+  - name: TextMeshPro/Distance Field
+    simpleName: Distance Field
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: GLOW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+  - name: Hidden/PostProcessing/MultiScaleVO
+    simpleName: MultiScaleVO
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: APPLY_FORWARD_FOG
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+  - name: ShaderControl/ChromaScreen
+    simpleName: ChromaScreen
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: ENABLE_BLUE_CHANNEL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: ENABLE_GREEN_CHANNEL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: ENABLE_RED_CHANNEL
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/ShaderControl/Demo/Resources/ChromaScreen.shader
+  - name: Hidden/PostProcessing/Lut2DBaker
+    simpleName: Lut2DBaker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: TONEMAPPING_ACES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: TONEMAPPING_CUSTOM
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: TONEMAPPING_NEUTRAL
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+  - name: Hidden/PostProcessing/ScalableAO
+    simpleName: ScalableAO
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: APPLY_FORWARD_FOG
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+  - name: Legacy Shaders/Particles/Alpha Blended
+    simpleName: Alpha Blended
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SOFTPARTICLES_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/CustomWaterShadow
+    simpleName: CustomWaterShadow
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: SHADOWS_SINGLE_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SPLIT_SPHERES
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/CollectShadowWaterCustom.shader
+  - name: Unlit/Swish
+    simpleName: Swish
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Swish.shader
+  - name: Sprites/Default
+    simpleName: Default
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: ETC1_EXTERNAL_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: PIXELSNAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Sprites/Mask
+    simpleName: Mask
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: ETC1_EXTERNAL_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: PIXELSNAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/Debug/LightMeter
+    simpleName: LightMeter
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: AUTO_EXPOSURE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: COLOR_GRADING_HDR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+  - name: Hidden/Internal-Halo
+    simpleName: Internal-Halo
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: TextMeshPro/Mobile/Bitmap
+    simpleName: Bitmap
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+  - name: TextMeshPro/Mobile/Distance Field Overlay
+    simpleName: Distance Field Overlay
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile
+      Overlay.shader
+  - name: Unlit/Color
+    simpleName: Color
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Unlit/Texture
+    simpleName: Texture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: TextMeshPro/Distance Field Overlay
+    simpleName: Distance Field Overlay
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+  - name: TextMeshPro/Sprite
+    simpleName: Sprite
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+  - name: TextMeshPro/Mobile/Distance Field - Masking
+    simpleName: Distance Field - Masking
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile
+      Masking.shader
+  - name: TextMeshPro/Bitmap
+    simpleName: Bitmap
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+  - name: Hidden/PostProcessing/DeferredFog
+    simpleName: DeferredFog
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+  - name: UI/Default
+    simpleName: Default
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/VideoDecode
+    simpleName: VideoDecode
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: ADJUST_TO_LINEARSPACE
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/Debug/Overlays
+    simpleName: Overlays
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: SOURCE_GBUFFER
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+  - name: Hidden/Internal-DeferredReflections
+    simpleName: Internal-DeferredReflections
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Legacy Shaders/Particles/Alpha Blended Premultiply
+    simpleName: Alpha Blended Premultiply
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: SOFTPARTICLES_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-CombineDepthNormals
+    simpleName: Internal-CombineDepthNormals
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/BlitToDepth
+    simpleName: BlitToDepth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/BlitToDepth_MSAA
+    simpleName: BlitToDepth_MSAA
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-Flare
+    simpleName: Internal-Flare
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-MotionVectors
+    simpleName: Internal-MotionVectors
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/BlitCopyHDRTonemap
+    simpleName: BlitCopyHDRTonemap
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUITextureClip
+    simpleName: Internal-GUITextureClip
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUITextureClipText
+    simpleName: Internal-GUITextureClipText
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUITexture
+    simpleName: Internal-GUITexture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/BlitCopyWithDepth
+    simpleName: BlitCopyWithDepth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUIRoundedRectWithColorPerBorder
+    simpleName: Internal-GUIRoundedRectWithColorPerBorder
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUIRoundedRect
+    simpleName: Internal-GUIRoundedRect
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-UIRDefault
+    simpleName: Internal-UIRDefault
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-UIRAtlasBlitCopy
+    simpleName: Internal-UIRAtlasBlitCopy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-UIRDefaultWorld
+    simpleName: Internal-UIRDefaultWorld
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/ProBuilder/VertexPickerHDRP
+    simpleName: VertexPickerHDRP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/VertexPickerHDRP.shader
+  - name: Hidden/CubeBlur
+    simpleName: CubeBlur
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/CubeCopy
+    simpleName: CubeCopy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/CubeBlend
+    simpleName: CubeBlend
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/VR/BlitTexArraySlice
+    simpleName: BlitTexArraySlice
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-ODSWorldTexture
+    simpleName: Internal-ODSWorldTexture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-CubemapToEquirect
+    simpleName: Internal-CubemapToEquirect
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/VR/BlitFromTex2DToTexArraySlice
+    simpleName: BlitFromTex2DToTexArraySlice
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/VideoComposite
+    simpleName: VideoComposite
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUITextureBlit
+    simpleName: Internal-GUITextureBlit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/Copy
+    simpleName: Copy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+  - name: Hidden/PostProcessing/Debug/Vectorscope
+    simpleName: Vectorscope
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+  - name: Hidden/BlitCopyDepth
+    simpleName: BlitCopyDepth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/MotionBlur
+    simpleName: MotionBlur
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+  - name: Hidden/BlitCopy
+    simpleName: BlitCopy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/SubpixelMorphologicalAntialiasing
+    simpleName: SubpixelMorphologicalAntialiasing
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+  - name: Hidden/PostProcessing/DiscardAlpha
+    simpleName: DiscardAlpha
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+  - name: Hidden/PostProcessing/Debug/Histogram
+    simpleName: Histogram
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+  - name: Hidden/PostProcessing/TemporalAntialiasing
+    simpleName: TemporalAntialiasing
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+  - name: Hidden/PostProcessing/ScreenSpaceReflections
+    simpleName: ScreenSpaceReflections
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+  - name: Hidden/PostProcessing/CopyStd
+    simpleName: CopyStd
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+  - name: Skybox/Simple
+    simpleName: Simple
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/SimpleSky.shader
+  - name: Hidden/Compositing
+    simpleName: Compositing
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Unlit/FrostedGlass
+    simpleName: FrostedGlass
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/FrostedGlass.shader
+  - name: Hidden/PostProcessing/Texture2DLerp
+    simpleName: Texture2DLerp
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+  - name: Hidden/PostProcessing/Debug/Waveform
+    simpleName: Waveform
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+  - name: Hidden/ConvertTexture
+    simpleName: ConvertTexture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Render Depth
+    simpleName: Render Depth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/DepthOnly.shader
+  - name: Hidden/PostProcessing/DepthOfField
+    simpleName: DepthOfField
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+  - name: Hidden/PostProcessing/GrainBaker
+    simpleName: GrainBaker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+  - name: Hidden/PostProcessing/CopyStdFromTexArray
+    simpleName: CopyStdFromTexArray
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+  - name: Hidden/ProBuilder/FacePickerHDRP
+    simpleName: FacePickerHDRP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/FacePickerHDRP.shader
+  - name: Hidden/ProBuilder/HideVertices
+    simpleName: HideVertices
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/HideVertices.shader
+  - name: Hidden/ProBuilder/FacePicker
+    simpleName: FacePicker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/FacePicker.shader
+  - name: Hidden/ProBuilder/VertexPicker
+    simpleName: VertexPicker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/VertexPicker.shader
+  - name: Hidden/ProBuilder/EdgePicker
+    simpleName: EdgePicker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/EdgePicker.shader
+  - name: Hidden/Internal-StencilWrite
+    simpleName: Internal-StencilWrite
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-DepthNormalsTexture
+    simpleName: Internal-DepthNormalsTexture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: ProBuilder/UnlitVertexColor
+    simpleName: UnlitVertexColor
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/UnlitVertexColor.shader
+  - name: Hidden/PostProcessing/Bloom
+    simpleName: Bloom
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+  - name: Hidden/PostProcessing/CopyStdFromDoubleWide
+    simpleName: CopyStdFromDoubleWide
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+  - name: Hidden/TextCore/Distance Field SSD
+    simpleName: Distance Field SSD
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  sortType: 1
+  hideReadOnlyShaders: 1
